@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>Bootstrap: Grid System</title>
+  	<link rel="stylesheet" href="css/bootstrap.min.css">
+  	<link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minium-scale=1.0">
+      
+      <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
+      <!-- ADVERTENCIA: Respond.js no soporta que ejecutes tu código via file:// -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->	
+  </head>
+  <body>
+  	<!-- Inserta tu código aqui -->
+    <header>
+      <div class="container"> <!--containerheder-->
+        <div class="row">
+          <div class="col-lg-4">
+            <h1>Site name</h1>
+          </div>
+            <div class="col-lg-4">
+              <ul class="list-unstyled">
+                <li class="uno punto"><a href=""><img src="img/home.png" alt="home"> Noticias</a></li>
+                <li class="uno"><a href=""><img src="img/home.png" alt="home"> Enlaces |</a></li>
+              </ul>
+            </div>
+            <div class="visible-lg col-lg-4"> <!--desaparecerloenmediano-->
+              <form>
+                <input type="text" value="Ingresa tu busqueda" placeholder="Ingresa tu busqueda">
+              </form>
+              <button> buscar</button>
+            </div>
+          </div>
+        </div>
+          <nav class="navbar navbar-default navbar-inverse"> <!--menudespegable-->
+            <div class=navbar-header>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav nav-tabs"> <!--elementosdelmenu-->
+                <li role="presentation" class="active"><a href="#">Bienvenido</a></li>
+                <li role="presentation"><a href="#" class="sin">Actualidades</a></li>
+                <li role="presentation"><a href="#" class="sin">En directo</a></li>
+                <li role="presentation"><a href="#" class="sin">Reporte Financiero</a></li>
+                <li role="presentation"><a href="#" class="sin">Nuestra Oferta</a></li>
+                <li role="presentation"><a href="#" class="sin">De Nosotros a Usted</a></li>
+              </ul>
+            </div>
+          </nav> 
+        </div> 
+    </header> <!--finheader-->
+    <section>
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-lg-5">
+              <p class="historia">Historia Destacada</p> <!--primeracolumna-->
+              <p>Artículo| <span>publicado el 09/10/2215</span></p>
+              <p> Lorem ipsum dolor sit amet,</p> 
+              <p> consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure </p>
+              <p><img src="img/bookmark.png" alt="bookmark">ver más...</p>
+              <p><img src="img/tag.png" alt="tag">Etiquetas <a href="" class="under">Lorem </a> <a href="" class="under"> ipsum</a> <a href="" class="under">diligat</a></p>
+              <hr>
+              <p>WebZone</p>
+              <p><a href="">preguntas</a>|<span>publicado el 05/09/2345</span></p>
+              <p> Lorem ipsum dolor sit amet,</p> 
+              <p> consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure </p>
+              <p><img src="img/bookmark.png" alt="bookmark">ver más...</p>
+              <p><img src="img/tag.png" alt="tag">Etiquetas <a href="" class="under">Lorem </a> <a href="" class="under"> ipsum</a> <a href="" class="under">diligat</a></p>
+              <hr>
+            </div>
+            <div class="col-sm-4 col-lg-4">
+              <div class="caja1"> <!--cajaqueencierraelvideo--> <!--segundacolumna-->
+                <p class="historia">Historia Destacada</p>
+                  <div class="cajav">
+                     <div class="vid">
+                      <iframe width="854" height="480" src="https://www.youtube.com/embed/6YziZ1FlAWs" frameborder="0" allowfullscreen></iframe> <!--video-->
+                     </div>
+                      <p>Claire Dupond</p> <!--descripciondelvideo-->
+                      <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure.</p>
+                      <p> <span> publicado el 03/09/2054</span></p>
+                      <p><img src="img/bookmark.png" alt="bookmark">ver más...</p>
+                  </div> 
+              </div>
+            </div>
+            <div class="visible-lg col-lg-3"> <!--terceracolumna--> <!--desapareceen768-->
+              <p>Más información</p>
+              <ul class="list-unstyled">
+                <li><img src="img/bookmark.png" alt="bookmark">Finanzas y fiscalización</li>
+                <li><img src="img/bookmark.png" alt="bookmark">Inversión y equipos</li>
+                <li><img src="img/bookmark.png" alt="bookmark">Medio ambiente</li>
+                <li><img src="img/bookmark.png" alt="bookmark">habitat/Urbanismo</li>
+                <li><img src="img/bookmark.png" alt="bookmark">Sanidad</li>
+                <li><img src="img/bookmark.png" alt="bookmark">Social/Servicios</li>
+                <li><img src="img/bookmark.png" alt="bookmark">Transporte</li>
+              </ul>
+              <hr>
+              <div class="cuadro1"> <!--cuadrobqueencierrael"aside"--> <!--desaparecene768-->
+                <p>Magazine <b> Ecodefi </b></p> <!--terceracolumna-->
+                <p>Enquete</p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <p>preguntas</p>
+                <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur.</p>
+              </div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-8 col-lg-5"> <!--primeracolumna02-->
+              <p >Artículo| <span>publicado 03/08/2345</span></p>
+              <p> Etiam lorem ipsum dolor sit amet.</p> 
+              <img src="img/personas.jpg" alt="personas" class="personas">
+              <p>consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+              <p><img src="img/bookmark.png" alt="bookmark">ver más...</p>
+              <p><img src="">Etiquetas <a href="" class="under">Lorem </a> <a href="" class="under"> ipsum</a> <a href="" class="under">diligat</a></p>
+              <hr>
+              <p> Lorem ipsum dolor sit amet,</p> 
+              <p> consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure </p>
+              <p><img src="img/bookmark.png" alt="bookmark">ver más...</p>
+              <p><img src="img/tag.png" alt="tag">Etiquetas <a href="" class="under">Lorem </a> <a href="" class="under"> ipsum</a> <a href="" class="under">diligat</a></p>
+          </div>
+          <div class="col-sm-4 col-lg-4"> <!--segundacolumna02-->
+           <p class="historia ab pa ">Agenda</p>
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 col-lg-4">
+                  <div class="cajita">
+                    <p>23 de Enero</p>
+                  </div>
+                  <div class="cajita">
+                    <p>23 de Enero</p>
+                  </div >
+                  <div class="cajita">
+                    <p>23 de Enero</p>
+                  </div>
+                  <div class="cajita">
+                    <p>23 de Enero</p>
+                  </div>
+                </div>
+                <div class="col-xs-8 col-sm-8 col-lg-8">
+                  <p> Lorem ipsum dolor sit amet,</p> 
+                  <p>consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                  <p> Lorem ipsum dolor sit amet,</p> 
+                  <p> consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                  <p> Lorem ipsum dolor sit amet,</p> 
+                  <p>consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                <hr class="ab large">
+                  <h3>Más información</h3>
+                  <p><a href="#" class="under">Localidades</a></p>
+                  <p>consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                  <p><a href="#" class="under">Hospimedia</a></p>
+                  <p>consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                </div>
+            </div>
+          </div>
+          <div class="visible-lg col-lg-3">
+            <div class="cuadro1"> <!--cuadrobqueencierrael"aside"--> <!--terceracolumna2-->
+              <p>Magazine <b> Ecodefi </b></p>
+              <p>Enquete</p>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div class="cuadro1">
+              <p>preguntas</p>
+              <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <hr class="gran">
+        <div class="row ">
+          <div class="col-xs-6 col-sm-3 col-lg-3">
+            <p>Rubros</p>
+            <ul class="list-unstyled">
+              <li><img src="img/bookmark.png" alt="bookmark">Finanzas y fiscalización</li>
+              <li><img src="img/bookmark.png" alt="bookmark">Inversión y equipos</li>
+              <li><img src="img/bookmark.png" alt="bookmark">Medio ambiente</li>
+              <li><img src="img/bookmark.png" alt="bookmark">habitat/Urbanismo</li>
+              <li><img src="img/bookmark.png" alt="bookmark">Sanidad</li>
+              <li><img src="img/bookmark.png" alt="bookmark">Social/Servicios</li>
+              <li><img src="img/bookmark.png" alt="bookmark">Transporte</li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-3 ">
+            <p>Rubros</p>
+            <ul class="list-unstyled">
+              <li><img src="img/bookmark.png" alt="bookmark">Finanzas y fiscalización</li>
+              <li><img src="img/bookmark.png" alt="bookmark">Inversión y equipos</li>
+              <li><img src="img/bookmark.png" alt="bookmark">Medio ambiente</li>
+              <li><img src="img/bookmark.png" alt="bookmark">habitat/Urbanismo</li>
+              <li><img src="img/bookmark.png" alt="bookmark">Sanidad</li>
+              <li><img src="img/bookmark.png" alt="bookmark">Social/Servicios</li>
+              <li><img src="img/bookmark.png" alt="bookmark">Transporte</li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-2 ">
+            <p>Rubros</p>
+            <ul class="list-unstyled">
+              <li><img src="img/bookmark.png" alt="bookmark">Finanzas n</li>
+              <li><img src="img/bookmark.png" alt="bookmark">Inversión </li>
+              <li><img src="img/bookmark.png" alt="bookmark">Medio </li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-lg-2 ">
+            <p>Rubros</p>
+            <ul class="list-unstyled">
+              <li><img src="img/bookmark.png" alt="bookmark">Finanzas </li>
+              <li><img src="img/bookmark.png" alt="bookmark">Inversión </li>
+              <li><img src="img/bookmark.png" alt="bookmark">Medio </li>
+            </ul>
+          </div>
+          <div class="visible-lg col-lg-2 ">
+            <p>Rubros</p>
+            <ul class="list-unstyled">
+              <li><img src="img/bookmark.png" alt="bookmark">Finanzas </li>
+              <li><img src="img/bookmark.png" alt="bookmark">Inversión </li>
+              <li><img src="img/bookmark.png" alt="bookmark">Medio </li>
+            </ul>
+          </div>
+
+
+
+
+
+              
+
+          
+        </div>
+      </footer>
+      <script src="js/jquery-1.11.3.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
